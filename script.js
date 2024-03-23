@@ -23,9 +23,9 @@ else{
     alert("You cannot vote more then once");
 }
 function result(){
-      var re1 = document.getElementBy("writ");
-      var re2 = document.getElementBy("writ2");
-      var re3 = document.getElementBy("writ3");
+      var re1 = document.getElementById("writ");
+      var re2 = document.getElementById("writ2");
+      var re3 = document.getElementById("writ3");
       re1.innerHTML = vote_count;
       re2.innerHTML = vote_count2;
       re3.innerHTML = vote_count3;
